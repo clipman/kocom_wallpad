@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "코콤 월패드 설정",
+        "description": "RS485 소켓 서버에 연결합니다",
+        "data": {
+          "socket_server": "소켓 서버 주소",
+          "socket_port": "소켓 서버 포트",
+          "rs485_floor": "현재 층",
+          "light_count": "조명 개수",
+          "init_temp": "초기 온도 (°C)",
+          "init_fan_mode": "초기 팬 모드",
+          "enabled_devices": "사용할 기기"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "연결할 수 없습니다",
+      "unknown": "알 수 없는 오류가 발생했습니다"
+    },
+    "abort": {
+      "already_configured": "이미 설정되었습니다",
+      "single_instance_allowed": "이미 Kocom Wallpad가 설정되어 있습니다. 하나의 인스턴스만 허용됩니다."
+    }
+  }
+}
